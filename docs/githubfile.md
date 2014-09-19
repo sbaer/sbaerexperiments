@@ -5,3 +5,5 @@ This is a markdown file created on *github*
 - list
 - of
 - items
+
+~~strikethrough~~
