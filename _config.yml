@@ -1,5 +1,6 @@
 # Site settings
 title: Your awesome title
+baseurl: /sbaerexperiments
 
 # Build settings
 markdown: kramdown
