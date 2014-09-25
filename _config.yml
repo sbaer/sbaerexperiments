@@ -4,3 +4,5 @@ baseurl: /sbaerexperiments
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
