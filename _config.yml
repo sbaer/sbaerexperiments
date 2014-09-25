@@ -3,6 +3,7 @@ title: Your awesome title
 baseurl: /sbaerexperiments
 
 # Build settings
+highlighter: null   # we use a javascript based highlighter
 markdown: kramdown
 kramdown:
   input: GFM

@@ -9,7 +9,7 @@ tags: developer rhinocommon
 
 C#
 =====
-```cs
+```csharp
 public static Rhino.Commands.Result AddBrepBox(Rhino.RhinoDoc doc)
 {
   Rhino.Geometry.Point3d pt0 = new Rhino.Geometry.Point3d(0, 0, 0);
@@ -28,7 +28,7 @@ public static Rhino.Commands.Result AddBrepBox(Rhino.RhinoDoc doc)
 
 VB.NET
 =====
-```vb
+```vbnet
 Public Shared Function AddBrepBox(ByVal doc As Rhino.RhinoDoc) As Rhino.Commands.Result
   Dim pt0 As New Rhino.Geometry.Point3d(0, 0, 0)
   Dim pt1 As New Rhino.Geometry.Point3d(10, 10, 10)
@@ -45,7 +45,7 @@ End Function
 
 Python
 =====
-```py
+```python
 import Rhino
 import scriptcontext
 import System.Guid
@@ -64,3 +64,22 @@ def AddBrepBox():
 if( __name__ == "__main__" ):
     AddBrepBox()
 ```
+
+
+
+$$
+\begin{align*}
+& \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+= \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+& (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+\phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+\vdots & \ddots & \vdots \\
+\phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+\end{array} \right)
+\left( \begin{array}{c}
+y_1 \\
+\vdots \\
+y_n
+\end{array} \right)
+\end{align*}
+$$
